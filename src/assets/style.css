@@ -1,0 +1,10 @@
+/* Menambahkan efek hover pada setiap item navigasi dalam sidebar */
+aside .nav-item:hover {
+  background-color: #ffffff; /* Mengubah warna latar belakang menjadi putih ketika item dinavigasi dengan hover */
+  border-radius: 0.5rem; /* Menambahkan border-radius sebesar 0.5rem untuk membuat sudut item lebih bulat saat hover */
+}
+
+/* Menambahkan efek hover pada teks link di dalam item navigasi */
+aside .nav-item:hover .nav-link {
+  color: #114d91 !important; /* Mengubah warna teks menjadi biru gelap (#114d91) saat item dihover. Penggunaan !important memastikan warna ini diterapkan meskipun ada aturan lain yang lebih spesifik */
+}
